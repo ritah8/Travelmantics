@@ -68,4 +68,7 @@ public class FirebaseUtils {
     public static void detachListener(){
         mFirebaseAuth.removeAuthStateListener(mAuthListener);
     }
+
+    public static void openFBReference(String traveldeals) {
+    }
 }
